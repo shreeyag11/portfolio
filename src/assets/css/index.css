@@ -114,26 +114,33 @@ code {
 
 /* ------------------------- Skills -------------------------- */
 
-.skills {
-  margin: "20px";
-}
-
 .container-title {
   text-align: center;
+}
+
+.skills {
+  background-color: #004343;
 }
 
 /* ------------------------- Education ----------------------- */
 /* ------------------------- Experience ---------------------- */
 
 .section {
-  height: 70vh;
   padding-left: 8rem;
   padding-right: 8rem;
-  padding-top: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 .experience {
   background-color: #004343;
+}
+
+.stage {
+  height: 100%;
+  padding: 20px;
+  width: 85%;
+  border-radius: 0rem;
 }
 
 /* ------------------------- Projects ------------------------ */
@@ -143,7 +150,6 @@ input[type="text"],
 select {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -154,16 +160,10 @@ input[type="submit"],
 select {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
   display: inline-block;
   border: 1px solid #004343;
   border-radius: 6px;
   box-sizing: border-box;
-}
-
-.contact {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 input[type="submit"]:hover {
@@ -181,6 +181,10 @@ textarea {
   resize: none;
 }
 
+.contact {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
 /* ------------------------- Footer -------------------------- */
 
 .footer {

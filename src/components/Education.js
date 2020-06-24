@@ -8,8 +8,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        width: '100%',
-        padding: "12rem",
+        width: '50%',
         backgroundColor: "#e4e4e4",
         fontSize: "20px"
     },
@@ -33,7 +32,7 @@ export default function Education() {
     };
 
     return (
-        <div className={classes.root}>
+        <div className={classes.root} className="section">
             <h3 className="section-title">EDUCATION</h3>
             <div className="centered line"></div>
             <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
@@ -42,65 +41,16 @@ export default function Education() {
                     aria-controls="panel1bh-content"
                     id="panel1bh-header"
                 >
-                    <Typography className={classes.heading} variant="h2">General settings</Typography>
-                    <Typography className={classes.secondaryHeading}>I am an expansion panel</Typography>
+                    <Typography className={classes.heading}>University of Mumbai</Typography>
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails>
-                    <Typography>
-                        Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat. Aliquam eget
-                        maximus est, id dignissim quam.
-          </Typography>
-                </ExpansionPanelDetails>
-            </ExpansionPanel>
-            <ExpansionPanel expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-                <ExpansionPanelSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel2bh-content"
-                    id="panel2bh-header"
-                >
-                    <Typography className={classes.heading}>Users</Typography>
-                    <Typography className={classes.secondaryHeading}>
-                        You are currently not an owner
-          </Typography>
-                </ExpansionPanelSummary>
-                <ExpansionPanelDetails>
-                    <Typography>
-                        Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus, varius pulvinar
-                        diam eros in elit. Pellentesque convallis laoreet laoreet.
-          </Typography>
-                </ExpansionPanelDetails>
-            </ExpansionPanel>
-            <ExpansionPanel expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-                <ExpansionPanelSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel3bh-content"
-                    id="panel3bh-header"
-                >
-                    <Typography className={classes.heading}>Advanced settings</Typography>
-                    <Typography className={classes.secondaryHeading}>
-                        Filtering has been entirely disabled for whole web server
-          </Typography>
-                </ExpansionPanelSummary>
-                <ExpansionPanelDetails>
-                    <Typography>
-                        Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-                        vitae egestas augue. Duis vel est augue.
-          </Typography>
-                </ExpansionPanelDetails>
-            </ExpansionPanel>
-            <ExpansionPanel expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
-                <ExpansionPanelSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel4bh-content"
-                    id="panel4bh-header"
-                >
-                    <Typography className={classes.heading}>Personal data</Typography>
-                </ExpansionPanelSummary>
-                <ExpansionPanelDetails>
-                    <Typography>
-                        Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-                        vitae egestas augue. Duis vel est augue.
-          </Typography>
+                    <Typography variant="h5">
+                        Bachelor of Engineering in Information Technology
+                    <br />
+                        <b>GPA:</b> 3.7
+                        <br />
+                        <b>Related Courses:</b>
+                    </Typography>
                 </ExpansionPanelDetails>
             </ExpansionPanel>
         </div>

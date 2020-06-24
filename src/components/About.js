@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     profile: {
         width: theme.spacing(30),
         height: theme.spacing(30),
-        margin: "60px"
+        margin: "60px",
     }
 }))
 

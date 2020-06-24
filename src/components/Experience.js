@@ -32,7 +32,7 @@ export default function Academic() {
             <Timeline align="alternate">
                 <TimelineItem>
                     <TimelineOppositeContent>
-                        <Typography variant="body5" color="textSecondary">
+                        <Typography variant="body1" color="textSecondary">
                             May 2020 - Present
                         </Typography>
                     </TimelineOppositeContent>
@@ -43,7 +43,7 @@ export default function Academic() {
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>
-                        <Paper elevation={5} className={classes.paper}>
+                        <Paper elevation={5} className={classes.paper} className="stage">
                             <Typography variant="h4" component="h1">
                                 Teaching Assistant
                             </Typography>
@@ -54,7 +54,7 @@ export default function Academic() {
                 </TimelineItem>
                 <TimelineItem>
                     <TimelineOppositeContent>
-                        <Typography variant="body5" color="textSecondary">
+                        <Typography variant="body1" color="textSecondary">
                             June 2018 - August 2018
                         </Typography>
                     </TimelineOppositeContent>
@@ -76,7 +76,7 @@ export default function Academic() {
                 </TimelineItem>
                 <TimelineItem>
                     <TimelineOppositeContent>
-                        <Typography variant="body5" color="textSecondary">
+                        <Typography variant="body1" color="textSecondary">
                             June 2017 - July 2017
                         </Typography>
                     </TimelineOppositeContent>

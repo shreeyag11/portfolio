@@ -1,11 +1,13 @@
 e4e4e4
-004343
-ffbcbc
+004343 -- cyprus - Home page & contact page with footer
+ffbcbc  -- pinkish
+78bbbb -- light shade of cyprus -- background
+00ffff -- cyan -- small text/highlights
 
 TODOS:
 1. media queries
-2. margin the whole page
-3. add projects
+2. margin the whole page --- done
+3. add projects 
 4. add social sites
 5. add icons
 6. constant color combo

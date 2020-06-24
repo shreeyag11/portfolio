@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import LinearProgress from '@material-ui/core/LinearProgress';
-import Paper from '@material-ui/core/Paper';
 import Container from '@material-ui/core/Container';
 
 const BorderLinearProgress = withStyles((theme) => ({
@@ -46,11 +45,9 @@ const container = {
 
 export default function Skills() {
     const classes = useStyles();
-    const classesGrid = useStyleGrid();
-
 
     return (
-        <div className={classes.root}>
+        <div className={classes.root} className="skills section">
             <h3 className="section-title">SKILLS</h3>
             <div className="centered line"></div>
             <div className="container" style={{ display: "flex" }}>

@@ -8,9 +8,11 @@ const Home = () => {
 
     const line1 = {
         fontSize: "80px",
+        color: "#00ffff"
     }
     const line3 = {
         fontSize: "70px",
+        color: "#ffbcbc"
     }
 
     const hrTag = {
