@@ -1,12 +1,38 @@
-import React from 'react'
-import MainContent from './home/MainContent';
+import React from 'react';
 
-function Home() {
+const Home = () => {
+    const content = {
+        paddingTop: "10%",
+        textAlign: "center"
+    }
+
+    const line1 = {
+        fontSize: "80px",
+    }
+    const line3 = {
+        fontSize: "70px",
+    }
+
+    const hrTag = {
+        width: "50%",
+        height: "2px",
+        backgroundColor: "#000000"
+    }
+
     return (
-        <div>
-            <MainContent />
-        </div>
-    )
+        <React.Fragment>
+            <div style={content} className="contents">
+                <br />
+                <div style={line1}>
+                    <b>Shreeya Gupta</b>
+                </div>
+                <hr style={hrTag} />
+                <div style={line3}>
+                    I build applications for the Web.
+                    </div>
+            </div>
+        </React.Fragment >
+    );
 }
 
-export default Home
+export default Home;

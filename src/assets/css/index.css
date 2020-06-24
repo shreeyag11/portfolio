@@ -1,0 +1,191 @@
+/* -------------------- index.html file ------------------------- */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ------------------------- General ------------------------- */
+
+.odd {
+  background-color: #004343;
+  color: #00ffbb;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+.section-title {
+  text-align: center;
+  text-decoration: solid;
+  text-shadow: 0 0 3px;
+}
+
+.line {
+  display: block;
+  width: 290px;
+  height: 3px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #ccc;
+}
+
+/* ------------------------- Navbar -------------------------- */
+
+.bottom-nav {
+  position: absolute;
+  bottom: 0;
+}
+
+.top-nav {
+  position: fixed;
+  top: 0;
+}
+
+.nav {
+  color: #e4e4e4;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.2);
+  background-color: #004343;
+  z-index: 1;
+}
+
+.nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav ul li .nav-link {
+  text-decoration: none;
+  padding: 10px;
+  color: #ccc;
+}
+
+/* ------------------------- Home ---------------------------- */
+
+.contents {
+  color: #e4e4e4;
+  background-color: #004343;
+  height: 100vh;
+  text-align: "center";
+}
+
+/* ------------------------- Sidebar ---------------------------- */
+
+.rotate {
+  transform: rotate(90);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+/* ------------------------- About --------------------------- */
+
+.section-contents {
+  display: flex;
+}
+
+.contents-right {
+  font-size: medium;
+  margin-top: 10rem;
+}
+
+/* ------------------------- Skills -------------------------- */
+
+.skills {
+  margin: "20px";
+}
+
+.container-title {
+  text-align: center;
+}
+
+/* ------------------------- Education ----------------------- */
+/* ------------------------- Experience ---------------------- */
+
+.section {
+  height: 70vh;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 8rem;
+}
+
+.experience {
+  background-color: #004343;
+}
+
+/* ------------------------- Projects ------------------------ */
+/* ------------------------- Contact ------------------------- */
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #004343;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.contact {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+/* ------------------------- Footer -------------------------- */
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: #e4e4e4;
+  background-color: #004343;
+}
