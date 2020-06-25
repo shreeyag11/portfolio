@@ -1,10 +1,14 @@
 import React from 'react';
+import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
 
-const NavBar = () => {
-
+const NavBar = props => {
     return (
-        <div>
+        <div >
+            <div className="toolbar__toggle-button odd top-nav">
+                <DrawerToggleButton click={props.drawerClickHandler} />
+            </div>
             <nav className="nav top-nav odd">
+
                 <ul>
                     <li><a href="#" className="nav-link">ABOUT ME</a></li>
                     <li><a href="#" className="nav-link">SKILLS</a></li>

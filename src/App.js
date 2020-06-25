@@ -1,20 +1,34 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Home from './components/Home';
 import './assets/css/App.css'
-import NavBar from './components/NavBar';
+import NavBar from './components/Navbar/NavBar';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
-import Projects from './components/Projects';
+import Project from './components/Projects/Project';
 import About from './components/About';
 import Particles from 'particlesjs';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Sidebars from './components/Sidebars';
+import SideDrawer from './components/Navbar/SideDrawer/SideDrawer';
+import Backdrop from './components/Navbar/Backdrop/Backdrop';
 
 
-function App() {
+class App extends Component {
+  state = {
+    sideDrawerOpen: false
+  };
 
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    });
+  }
+
+  backdropClickHandler = () => {
+    this.setState({ sideDrawerOpen: false });
+  };
   // window.
   //   onload
   //   = function () {
@@ -49,24 +63,30 @@ function App() {
   //     nav.classList.add('.bottom-nav');
   //   }
   // }
+  render() {
+    let backdrop;
+    if (this.state.sideDrawerOpen) {
+      backdrop = <Backdrop click={this.backdropClickHandler} />
+    }
 
-  return (
-    <div className="App">
-      <div className="main" >
-        <Sidebars />
-        <NavBar />
-        <Home />
-      </div>
-      <About />
-      <Skills />
-      {/* <Projects /> */}
-      <Education />
-      <Experience />
-      <Contact />
-      <Footer />
-    </div>
-  );
+    return (
+      <div className="App" style={{ height: "100%" }}>
+        <div className="main" >
+          <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
+          <SideDrawer show={this.state.sideDrawerOpen} />
+          {backdrop}
+          <Home />
+        </div>
+        <About />
+        <Skills />
+        {/* <Project /> */}
+        <Education />
+        <Experience />
+        <Contact />
+        <Footer />
+      </div >
+    );
+  }
 }
-
 
 export default App;

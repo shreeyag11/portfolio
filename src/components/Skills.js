@@ -23,24 +23,13 @@ const useStyles = makeStyles({
     },
 });
 
-const useStyleGrid = makeStyles((theme) => ({
-    root: {
-        flexGrow: 1,
-        margin: "12rem"
-    },
-    paper: {
-        padding: theme.spacing(2),
-        textAlign: 'center',
-        color: theme.palette.text.secondary,
-    },
-}));
-
 const container = {
     backgroundColor: '#e4e4e4',
     padding: '2rem',
     margin: '2rem',
     borderRadius: 10,
     boxShadow: '0 3px 5px 2px rgba(0, 0, 0, .5)',
+    width: "100%"
 }
 
 export default function Skills() {
@@ -48,10 +37,10 @@ export default function Skills() {
 
     return (
         <div className={classes.root} className="skills section">
-            <h3 className="section-title">SKILLS</h3>
+            {/* <h3 className="section-title">SKILLS</h3>
             <div className="centered line"></div>
-            <div className="container" style={{ display: "flex" }}>
-                <Container style={container}>
+            <div  >
+                <Container style={container} className="col-lg-6 col-md-6 col-sm-12">
                     <h3 className="container-title">Programming Languages</h3>
                     <hr />
                     <div>
@@ -63,7 +52,7 @@ export default function Skills() {
                         <BorderLinearProgress variant="determinate" value={50} />
                     </div>
                 </Container>
-                <Container style={container}>
+                <Container style={container} className="col-lg-6 col-md-6 col-sm-12">
                     <h3 className="container-title">Database</h3>
                     <hr />
                     <div>
@@ -76,8 +65,8 @@ export default function Skills() {
                     </div>
                 </Container>
             </div>
-            <div className="container" style={{ display: "flex" }}>
-                <Container style={container}>
+            <div className="container">
+                <Container style={container} className="col-lg-6 col-md-6 col-sm-12">
                     <h3 className="container-title">Project Management</h3>
                     <hr />
                     <div>
@@ -89,7 +78,7 @@ export default function Skills() {
                         <BorderLinearProgress variant="determinate" value={50} />
                     </div>
                 </Container>
-                <Container style={container}>
+                <Container style={container} className="col-lg-6 col-md-6 col-sm-12">
                     <h3 className="container-title">Web development</h3>
                     <hr />
                     <div>
@@ -101,7 +90,7 @@ export default function Skills() {
                         <BorderLinearProgress variant="determinate" value={50} />
                     </div>
                 </Container>
-            </div>
+            </div> */}
         </div >
 
     );

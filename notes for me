@@ -1,8 +1,10 @@
 e4e4e4
 004343 -- cyprus - Home page & contact page with footer
 ffbcbc  -- pinkish
+ffeee -light pink
 78bbbb -- light shade of cyprus -- background
 00ffff -- cyan -- small text/highlights
+
 
 TODOS:
 1. media queries
@@ -11,6 +13,27 @@ TODOS:
 4. add social sites
 5. add icons
 6. constant color combo
-7. burger bar
+7. burger bar --- done
 8. fill in contents
 9. particle js
+
+
+
+
+
+/* ------------------------- Sidebar ---------------------------- */
+
+.rotate {
+  transform: rotate(90);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}

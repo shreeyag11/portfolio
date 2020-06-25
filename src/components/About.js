@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     profile: {
         width: theme.spacing(30),
         height: theme.spacing(30),
-        margin: "60px",
+        padding: "60px",
     }
 }))
 
@@ -15,11 +15,10 @@ function About() {
     const classes = useStyles();
 
     return (
-        <div className="section">
+        <div className="about">
             <h3 className="section-title">ABOUT ME</h3>
             <div className="centered line"></div>
-            <div className="section-contents">
-                <Avatar src={meImg} className={classes.profile} />
+            <div>
                 <div className="contents-right">
                     Hi,
                 <br />
@@ -27,6 +26,7 @@ function About() {
                 <br />
                 I am currently pursuing Master of Science in Computer Science at University of North Carolina at Charlotte, NC.
                 </div>
+                <Avatar src={meImg} className={classes.profile} />
             </div>
         </div>
     )
