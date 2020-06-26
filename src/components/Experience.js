@@ -24,79 +24,87 @@ export default function Academic() {
     const classes = useStyles();
 
     return (
-        <div className="section experience">
-            <h3 className="section-title">
-                WORK EXPERIENCE
+        <div className="section">
+            <div>
+                <h3 className="section-title">
+                    WORK EXPERIENCE
             </h3>
-            <div className="centered line"></div>
-            <Timeline align="alternate">
-                <TimelineItem>
-                    <TimelineOppositeContent>
-                        <Typography variant="body1" color="textSecondary">
-                            May 2020 - Present
+                <div className="centered line"></div>
+                <Timeline align="alternate">
+                    <TimelineItem style={{
+                        position: "static"
+                    }}>
+                        <TimelineOppositeContent >
+                            <Typography variant="body1" color="textSecondary">
+                                May 2020 - Present
                         </Typography>
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                        <TimelineDot color="primary">
-                            <LaptopMacIcon />
-                        </TimelineDot>
-                        <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={5} className={classes.paper} className="stage">
-                            <Typography variant="h4" component="h1">
-                                Teaching Assistant
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot color="primary">
+                                <LaptopMacIcon />
+                            </TimelineDot>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>
+                            <Paper elevation={5} className={classes.paper} className="stage">
+                                <Typography variant="h4" component="h1">
+                                    Teaching Assistant
                             </Typography>
-                            <Typography variant="h5">Digital Image Processing</Typography>
-                            <Typography variant="h5">Univesity of North Carolina at Charlotte - Charlotte, North Carolina, USA</Typography>
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineOppositeContent>
-                        <Typography variant="body1" color="textSecondary">
-                            June 2018 - August 2018
+                                <Typography variant="h5">Digital Image Processing</Typography>
+                                <Typography variant="h5">Univesity of North Carolina at Charlotte - Charlotte, North Carolina, USA</Typography>
+                            </Paper>
+                        </TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem style={{
+                        position: "static"
+                    }}>
+                        <TimelineOppositeContent>
+                            <Typography variant="body1" color="textSecondary">
+                                June 2018 - August 2018
                         </Typography>
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                        <TimelineDot color="primary">
-                            <LaptopMacIcon />
-                        </TimelineDot>
-                        <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={5} className={classes.paper}>
-                            <Typography variant="h4" component="h1">
-                                Web development intern
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot color="primary">
+                                <LaptopMacIcon />
+                            </TimelineDot>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>
+                            <Paper elevation={5} className={classes.paper}>
+                                <Typography variant="h4" component="h1">
+                                    Web development intern
                             </Typography>
-                            <Typography variant="h5">Ganyt E-commerce Solution Pvt Ltd</Typography>
-                            <Typography variant="h5">Mumbai, Maharashtra, India</Typography>
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineOppositeContent>
-                        <Typography variant="body1" color="textSecondary">
-                            June 2017 - July 2017
+                                <Typography variant="h5">Ganyt E-commerce Solution Pvt Ltd</Typography>
+                                <Typography variant="h5">Mumbai, Maharashtra, India</Typography>
+                            </Paper>
+                        </TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem style={{
+                        position: "static"
+                    }}>
+                        <TimelineOppositeContent>
+                            <Typography variant="body1" color="textSecondary">
+                                June 2017 - July 2017
                         </Typography>
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                        <TimelineDot color="primary">
-                            <LaptopMacIcon />
-                        </TimelineDot>
-                        <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={5} className={classes.paper}>
-                            <Typography variant="h4" component="h1">
-                                Web development intern
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot color="primary">
+                                <LaptopMacIcon />
+                            </TimelineDot>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>
+                            <Paper elevation={5} className={classes.paper}>
+                                <Typography variant="h4" component="h1">
+                                    Web development intern
                             </Typography>
-                            <Typography variant="h5">Sammey Inc. </Typography>
-                            <Typography variant="h5">Mumbai, Maharashtra, India</Typography>
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-            </Timeline>
+                                <Typography variant="h5">Sammey Inc. </Typography>
+                                <Typography variant="h5">Mumbai, Maharashtra, India</Typography>
+                            </Paper>
+                        </TimelineContent>
+                    </TimelineItem>
+                </Timeline>
+            </div>
         </div>
     );
 }

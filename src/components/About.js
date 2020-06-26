@@ -8,6 +8,7 @@ const useStyles = makeStyles((theme) => ({
         width: theme.spacing(30),
         height: theme.spacing(30),
         padding: "60px",
+        position: "static",
     }
 }))
 
@@ -16,7 +17,9 @@ function About() {
 
     return (
         <div className="about">
+
             <h3 className="section-title">ABOUT ME</h3>
+
             <div className="centered line"></div>
             <div>
                 <div className="contents-right">
@@ -29,6 +32,7 @@ function About() {
                 <Avatar src={meImg} className={classes.profile} />
             </div>
         </div>
+
     )
 }
 

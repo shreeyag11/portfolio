@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
     root: {
         width: '50%',
         backgroundColor: "#e4e4e4",
-        fontSize: "20px"
+        fontSize: "20px",
     },
     heading: {
         fontSize: theme.typography.pxToRem(30),
@@ -35,13 +35,18 @@ export default function Education() {
         <div className={classes.root} className="section">
             <h3 className="section-title">EDUCATION</h3>
             <div className="centered line"></div>
-            <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+            <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')} style={{
+                position: "static"
+            }}>
                 <ExpansionPanelSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1bh-content"
                     id="panel1bh-header"
+                    style={{
+                        position: "static"
+                    }}
                 >
-                    <Typography className={classes.heading}>University of Mumbai</Typography>
+                    <Typography className={classes.heading} >University of Mumbai</Typography>
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails>
                     <Typography variant="h5">

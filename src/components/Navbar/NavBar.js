@@ -8,7 +8,6 @@ const NavBar = props => {
                 <DrawerToggleButton click={props.drawerClickHandler} />
             </div>
             <nav className="nav top-nav odd">
-
                 <ul>
                     <li><a href="#" className="nav-link">ABOUT ME</a></li>
                     <li><a href="#" className="nav-link">SKILLS</a></li>

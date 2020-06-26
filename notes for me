@@ -18,6 +18,35 @@ TODOS:
 9. particle js
 
 
+// <div className="display">
+//                 <Container style={container}>
+//                     <form action="https://formspree.io/xvowqeaa"
+//                         method="POST">
+//                         <label>Your Name:</label>
+//                         <br />
+//                         <input type="text" name="Name" />
+//                         <br />
+//                         <br />
+//                         <label>Email:</label>
+//                         <br />
+//                         <input type="text" name="Email" />
+//                         <br />
+//                         <br />
+//                         <label>Subject:</label>
+//                         <br />
+//                         <input type="text" name="Subject" />
+//                         <br />
+//                         <br />
+//                         <label>Message:</label>
+//                         <br />
+//                         <textarea name="Message" />
+//                         <br />
+//                         <br />
+//                         <input type="submit" value="Submit" />
+//                     </form>
+//                 </Container>
+
+
 
 
 
