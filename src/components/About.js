@@ -17,9 +17,7 @@ function About() {
 
     return (
         <div className="about">
-
             <h3 className="section-title">ABOUT ME</h3>
-
             <div className="centered line"></div>
             <div>
                 <div className="contents-right">

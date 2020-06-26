@@ -78,6 +78,11 @@ html {
   padding: 10px;
 }
 
+.nav ul li .nav-link:hover {
+  text-decoration: none;
+  color: #00ffff;
+}
+
 .nav ul li .nav-link {
   text-decoration: none;
   color: #ccc;
@@ -108,24 +113,24 @@ html {
 
 .line1 {
   font-size: 53px;
-  color: #00ffff;
+  color: #d6d7e1;
 }
 
 .line2 {
   font-size: 35px;
-  color: #ffbcbc;
+  color: #adb0c4;
 }
 
 .line3 {
   font-size: 20px;
+  color: #adb0c4;
 }
-
 .hrTag {
   width: 20%;
   height: 2px;
-  background-color: #000000;
+  background-color: #00ffff;
+  border: 0;
 }
-
 /* ------------------------- About --------------------------- */
 
 .contents-right {
@@ -493,20 +498,17 @@ form {
 @media (min-width: 768px) and (max-width: 991px) {
   .line1 {
     font-size: 43px;
-    color: #00ffff;
+    color: #adb0c4;
   }
   .line2 {
     font-size: 35px;
-    color: #ffbcbc;
+    color: #d6d7e1;
   }
   .line3 {
     font-size: 25px;
+    color: #d6d7e1;
   }
-  .hrTag {
-    width: 20%;
-    height: 2px;
-    background-color: #000000;
-  }
+
   .contents {
     padding-top: 40%;
   }
@@ -530,11 +532,7 @@ form {
   .line3 {
     font-size: 15px;
   }
-  .hrTag {
-    width: 20%;
-    height: 2px;
-    background-color: #000000;
-  }
+
   .contents {
     padding-top: 40%;
   }

@@ -3,8 +3,10 @@ e4e4e4
 ffbcbc  -- pinkish
 ffeee -light pink
 78bbbb -- light shade of cyprus -- background
-00ffff -- cyan -- small text/highlights
 
+00ffff -- cyan -- small text/highlights
+#adb0c4 - light blue
+#d6d7e1 - lightest blue 
 
 TODOS:
 1. media queries
