@@ -1,6 +1,5 @@
 import React from 'react';
-import Container from '@material-ui/core/Container';
-
+import SocialSites from './Social/SocialSites';
 
 function Contact() {
     const container = {
@@ -12,21 +11,25 @@ function Contact() {
         textAlign: "center",
     }
     return (
-        <div className="contact ">
-            <div className="in-middle">
-                <h3 className="section-title">GET IN TOUCH WITH ME</h3>
-                <div className="centered line"></div>
-                <div className="center-div">
+        <div>
+            <div className="contact ">
+                <div className="in-middle_contact">
+                    <h3 className="section-title">GET IN TOUCH</h3>
+                    <div className="centered line"></div>
+                    <div className="center-div">
+                        <form method="post" action="https://formspree.io/xvowqeaa">
+                            <input type="text" name="Name" placeholder="Name" required="required" /><br />
+                            <input type="email" name="Email" placeholder="Email" required="required" /><br />
+                            <input type="text" name="Subject" placeholder="Subject" required="required" /><br />
+                            <textarea type="text" name="Message" placeholder="Message" required="required" /><br />
+                            <button type="submit" className="btn btn-primary btn-block btn-large">Submit</button>
+                        </form>
+                        <SocialSites />
 
-                    <form method="post" action="https://formspree.io/xvowqeaa">
-                        <input type="text" name="Name" placeholder="Name" required="required" /><br />
-                        <input type="email" name="Email" placeholder="Email" required="required" /><br />
-                        <input type="text" name="Subject" placeholder="Subject" required="required" /><br />
-                        <textarea type="text" name="Message" placeholder="Message" required="required" /><br />
-                        <button type="submit" className="btn btn-primary btn-block btn-large">Submit</button>
-                    </form>
+                    </div>
                 </div>
             </div>
+
         </div>
     )
 }

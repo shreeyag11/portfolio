@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core/styles';
+import SocialSites from './Social/SocialSites';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -21,7 +22,7 @@ const Home = () => {
     return (
         <React.Fragment>
             <div className="contents">
-                <div className="in-middle">
+                <div className="in-middle_home">
                     <div className="line1">
                         <b>SHREEYA GUPTA</b>
                     </div>
@@ -37,6 +38,7 @@ const Home = () => {
                     <div className={classes.root}>
                         <Button variant="outlined">Get in Touch</Button>
                     </div>
+                    <SocialSites />
                 </div>
             </div>
 

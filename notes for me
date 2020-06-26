@@ -10,59 +10,10 @@ TODOS:
 1. media queries
 2. margin the whole page --- done
 3. add projects 
-4. add social sites
+4. add social sites -- done
 5. add icons
-6. constant color combo
+6. constant color combo --done
 7. burger bar --- done
 8. fill in contents
 9. particle js
 
-
-// <div className="display">
-//                 <Container style={container}>
-//                     <form action="https://formspree.io/xvowqeaa"
-//                         method="POST">
-//                         <label>Your Name:</label>
-//                         <br />
-//                         <input type="text" name="Name" />
-//                         <br />
-//                         <br />
-//                         <label>Email:</label>
-//                         <br />
-//                         <input type="text" name="Email" />
-//                         <br />
-//                         <br />
-//                         <label>Subject:</label>
-//                         <br />
-//                         <input type="text" name="Subject" />
-//                         <br />
-//                         <br />
-//                         <label>Message:</label>
-//                         <br />
-//                         <textarea name="Message" />
-//                         <br />
-//                         <br />
-//                         <input type="submit" value="Submit" />
-//                     </form>
-//                 </Container>
-
-
-
-
-
-/* ------------------------- Sidebar ---------------------------- */
-
-.rotate {
-  transform: rotate(90);
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-}
