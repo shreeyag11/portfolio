@@ -9,12 +9,12 @@ const NavBar = props => {
             </div>
             <nav className="nav top-nav odd">
                 <ul>
-                    <li><a href="#" className="nav-link">ABOUT ME</a></li>
-                    <li><a href="#" className="nav-link">SKILLS</a></li>
-                    <li><a href="#" className="nav-link">EDUCATION</a></li>
-                    <li><a href="#" className="nav-link">EXPERIENCE</a></li>
-                    <li><a href="#" className="nav-link">PROJECTS</a></li>
-                    <li><a href="#" className="nav-link">CONTACT ME</a></li>
+                    <li><a href="#about" className="nav-link">ABOUT</a></li>
+                    <li><a href="#skills" className="nav-link">SKILLS</a></li>
+                    <li><a href="#education" className="nav-link">EDUCATION</a></li>
+                    <li><a href="#experience" className="nav-link">EXPERIENCE</a></li>
+                    <li><a href="#projects" className="nav-link">PROJECTS</a></li>
+                    <li><a href="#contact" className="nav-link">CONTACT</a></li>
                 </ul>
             </nav>
 

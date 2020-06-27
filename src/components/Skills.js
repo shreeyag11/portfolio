@@ -37,7 +37,7 @@ export default function Skills() {
 
     return (
         <div className={classes.root} className="skills section">
-            {/* <h3 className="section-title">SKILLS</h3>
+            {/* <h3 className="section-title" id="Skills">SKILLS</h3>
             <div className="centered line"></div>
             <div  >
                 <Container style={container} className="col-lg-6 col-md-6 col-sm-12">

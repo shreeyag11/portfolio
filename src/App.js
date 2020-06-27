@@ -5,7 +5,7 @@ import NavBar from './components/Navbar/NavBar';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
 import Project from './components/Projects/Project';
-import About from './components/About';
+import About from './components/About/About';
 import Particles from 'particlesjs';
 import Education from './components/Education';
 import Skills from './components/Skills';

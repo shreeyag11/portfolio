@@ -9,10 +9,10 @@ const useStyles = makeStyles((theme) => ({
             margin: theme.spacing(4),
             height: "40px",
             width: "12rem",
-            color: "#00ffff",
+            color: "#03e9f4",
             fontSize: "12.5px",
-            borderColor: "#00ffff",
-            position: "static"
+            borderColor: "#03e9f4",
+
         },
     },
 }));

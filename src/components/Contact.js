@@ -1,20 +1,30 @@
 import React from 'react';
+import Button from '@material-ui/core/Button'
+import { makeStyles } from '@material-ui/core/styles';
 import SocialSites from './Social/SocialSites';
 
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+        '& > *': {
+            height: "40px",
+            color: "#03e9f4",
+            fontSize: "12.5px",
+            borderColor: "#03e9f4",
+
+        },
+    },
+}));
 function Contact() {
-    const container = {
-        backgroundColor: '#e4e4e4',
-        padding: '2rem',
-        width: '30%',
-        borderRadius: 10,
-        boxShadow: '0 3px 5px 2px rgba(0, 0, 0, .5)',
-        textAlign: "center",
-    }
+
+    const classes = useStyles();
+
+
     return (
         <div>
             <div className="contact ">
                 <div className="in-middle_contact">
-                    <h3 className="section-title">GET IN TOUCH</h3>
+                    <h3 className="section-title" id="contact">GET IN TOUCH</h3>
                     <div className="centered line"></div>
                     <div className="center-div">
                         <form method="post" action="https://formspree.io/xvowqeaa">
@@ -22,7 +32,9 @@ function Contact() {
                             <input type="email" name="Email" placeholder="Email" required="required" /><br />
                             <input type="text" name="Subject" placeholder="Subject" required="required" /><br />
                             <textarea type="text" name="Message" placeholder="Message" required="required" /><br />
-                            <button type="submit" className="btn btn-primary btn-block btn-large">Submit</button>
+                            <div className={classes.root}>
+                                <Button type="submit" variant="outlined" className="btn-block btn-large">Submit</Button>
+                            </div>
                         </form>
                         <SocialSites />
 

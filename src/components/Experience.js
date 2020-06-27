@@ -26,7 +26,7 @@ export default function Academic() {
     return (
         <div className="section">
             <div>
-                <h3 className="section-title">
+                <h3 className="section-title" id="experience">
                     WORK EXPERIENCE
             </h3>
                 <div className="centered line"></div>

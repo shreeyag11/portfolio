@@ -32,8 +32,8 @@ export default function Education() {
     };
 
     return (
-        <div className={classes.root} className="section">
-            <h3 className="section-title">EDUCATION</h3>
+        <div className={`section {classes.root}`}>
+            <h3 className="section-title" id="education">EDUCATION</h3>
             <div className="centered line"></div>
             <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')} style={{
                 position: "static"
@@ -51,7 +51,7 @@ export default function Education() {
                 <ExpansionPanelDetails>
                     <Typography variant="h5">
                         Bachelor of Engineering in Information Technology
-                    <br />
+                        <br />
                         <b>GPA:</b> 3.7
                         <br />
                         <b>Related Courses:</b>

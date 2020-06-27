@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
             <Typography variant="h5">
-                Designed & Built by Shreeya Gupta
+                Designed &amp; Built with &#x2764; by Shreeya Gupta
             </Typography>
         </div>
     )

@@ -1,0 +1,85 @@
+/* -------------------------- Large Devices Only ------------------------*/
+
+@media (min-width: 992px) {
+  form {
+    width: 30%;
+  }
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /**************** home ***********/
+  .line1 {
+    font-size: 53px;
+  }
+  .line2 {
+    font-size: 35px;
+  }
+  .line3 {
+    font-size: 25px;
+  }
+  .contents {
+    padding-top: 40%;
+  }
+  .display {
+    display: block;
+  }
+  /**************** contact ***********/
+
+  form {
+    width: 30%;
+  }
+  /**************** about ***********/
+
+  .card > img {
+    width: 33%;
+    height: 55%;
+    top: 12%;
+    right: -2%;
+  }
+
+  .card .card-content {
+    position: relative;
+    height: 455px;
+    font-size: 17px;
+  }
+}
+
+/********** Small devices only **********/
+
+@media (min-width: 0px) and (max-width: 767px) {
+  /*********** home **************/
+  .line1 {
+    font-size: 38px;
+  }
+  .line2 {
+    font-size: 20px;
+  }
+  .line3 {
+    font-size: 17px;
+  }
+
+  .contents {
+    padding-top: 40%;
+  }
+  .display {
+    display: block;
+  }
+  /**************** contact ***********/
+  form {
+    width: 100%;
+  }
+  /******** about ***********/
+  .card > img {
+    width: 20%;
+    top: 12%;
+    right: -2%;
+  }
+
+  .card .card-content {
+    position: relative;
+    height: 455px;
+    font-size: 12px;
+  }
+}
