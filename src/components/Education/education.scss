@@ -1,0 +1,134 @@
+$time-color: #fff;
+$text-color: #adb0c4;
+$content-width: 580px;
+
+.timeline {
+  color: $text-color;
+
+  h1,
+  ul li .content h2 {
+    text-shadow: 1px 1px 1px rgba(56, 56, 56, 0.5);
+  }
+
+  ul {
+    padding: 50px 0;
+
+    li {
+      background: #03e9f4;
+      position: relative;
+      margin: 0 auto;
+      width: 5px;
+      padding-bottom: 40px;
+      list-style-type: none;
+      font-size: 20px;
+
+      &:last-child {
+        padding-bottom: 7px;
+      }
+
+      &:before {
+        content: "";
+        background: #fff;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        width: 20px;
+        height: 20px;
+        border: 2px solid #03e9f4;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        text-align: center;
+      }
+
+      .hidden {
+        opacity: 0;
+      }
+
+      .content {
+        position: relative;
+        top: 7px;
+        width: $content-width;
+        padding: 20px;
+        text-align: center;
+
+        h2 {
+          color: $time-color;
+          padding-bottom: 10px;
+          text-align: center;
+        }
+
+        p {
+          text-align: center;
+        }
+
+        &:before {
+          content: "";
+          background: #03e9f4;
+          position: absolute;
+          top: 0px;
+          width: 38px;
+          height: 5px;
+        }
+      }
+
+      &:nth-child(odd) .content {
+        left: 49px;
+        border: 3px solid #03e9f4;
+      }
+
+      &:nth-child(odd) .content:before {
+        left: -38px;
+        border: 3px solid #03e9f4;
+      }
+
+      &:nth-child(even) .content {
+        left: calc(-#{$content-width} - 45px);
+        border: 3px solid #03e9f4;
+      }
+
+      &:nth-child(even) .content:before {
+        right: -40px;
+        border: 3px solid #03e9f4;
+      }
+    }
+  }
+}
+
+/* -------------------------
+   ----- Media Queries ----- 
+   ------------------------- */
+
+@media screen and (max-width: 1020px) {
+  .timeline ul li .content {
+    width: 41vw;
+  }
+  .timeline ul li:nth-child(even) .content {
+    left: calc(-41vw - 45px);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .timeline ul li {
+    margin-left: 20px;
+    font-size: medium;
+
+    .content {
+      width: calc(100vw - 100px);
+
+      h2 {
+        text-align: initial;
+      }
+    }
+
+    &:nth-child(even) .content {
+      left: 44px;
+    }
+
+    &:nth-child(even) .content:before {
+      left: -35px;
+    }
+  }
+}

@@ -32,8 +32,8 @@ const Home = () => {
                 </div>
                     <br />
                     <div className="line3">
-                        I'm a software engineer based in Charlotte, NC <br /> specialaizing in
-                    building and designing<br /> exceptional websites & applications.<br />
+                        I'm a software engineer based in Charlotte, NC <br /> specializing in
+                    building and designing<br /> exceptional websites &amp; applications.<br />
                     </div>
                     <div className={classes.root}>
                         <Button variant="outlined">Get in Touch</Button>

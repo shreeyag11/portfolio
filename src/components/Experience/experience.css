@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+.tabs {
+  width: 800px;
+  padding: 0px;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid #dee8f2;
+}
+section {
+  display: none;
+  padding: 15px;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+p {
+  margin: 0;
+}
+input {
+  display: none;
+}
+label {
+  display: block;
+  width: 180px;
+  padding: 15px;
+  color: #4f5966;
+  background: #dee8f2;
+  cursor: pointer;
+}
+input:checked + label {
+  color: #555;
+  background: white;
+}
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+section {
+  animation: scale 0.7s ease-in-out;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.005);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

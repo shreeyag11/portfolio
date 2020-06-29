@@ -199,12 +199,14 @@ html {
   font-size: 20px;
   color: #adb0c4;
 }
+
 .hrTag {
   width: 20%;
   height: 2px;
   background-color: #03e9f4;
   border: 0;
 }
+
 /* ------------------------- About --------------------------- */
 
 .contents-right {
@@ -223,16 +225,60 @@ html {
   text-align: center;
 }
 
+.skills {
+  position: relative;
+  padding-top: 15rem;
+  margin-bottom: 70rem;
+  height: 100vh;
+  vertical-align: middle;
+}
+
+.in-middle_skills {
+  position: absolute;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
 /* ---------------------- Education ---------------------------*/
 
 .education {
-  position: static;
+  position: relative;
+  height: 100vh;
+  vertical-align: middle;
+  margin-bottom: 70rem;
+  margin-top: 35rem;
+}
+
+.in-middle_education {
+  top: 95%;
+  position: absolute;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.acad-year {
+  text-align: center;
+}
+
+.acad-title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 25px;
 }
 
 /* ---------------------- Experience ---------------------------*/
 
 .experience {
-  position: static;
+  position: relative;
+  height: 100vh;
+  vertical-align: middle;
+}
+
+.in-middle_experience {
+  top: 75%;
+  position: absolute;
+  width: 100%;
+  transform: translateY(-50%);
 }
 
 /* -----------------------Contact --------------------------*/
@@ -281,7 +327,6 @@ html {
 
 /************************* form ************/
 
-@import url(https://fonts.googleapis.com/css?family=Open + Sans);
 .btn {
   display: inline-block;
   *display: inline;
@@ -294,7 +339,6 @@ html {
   text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
-
   cursor: pointer;
   *margin-left: 0.3em;
 }
@@ -421,6 +465,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 /* 1st part of last bg
 -webkit-radial-gradient(
       0% 100%,

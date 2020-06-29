@@ -1,0 +1,246 @@
+.skill-set__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: center;
+}
+
+.content {
+  margin: auto;
+}
+
+.skill-set__list {
+  width: 85%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.skill-set__item {
+  /*     margin-top: 6.4rem; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.skill-set__icon {
+  width: 5.6382%;
+  -ms-flex-item-align: center;
+  align-self: center;
+  padding-right: 1rem;
+}
+
+.img-skills {
+  max-width: 100%;
+  height: 20%;
+  vertical-align: middle;
+  width: 90%;
+}
+
+.skill-set__detail {
+}
+
+.skill-set__meta {
+  margin-bottom: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: center;
+}
+
+.skill-set__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.small-title {
+  font-size: 2.2rem;
+  color: #072142;
+  letter-spacing: 0.1em;
+  line-height: 0.5;
+}
+
+.skill-set__year {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: #c0c5ca;
+  margin-left: 0.8rem;
+  letter-spacing: 0.2em;
+}
+
+.skill-set__high {
+  color: #ff4d5a;
+}
+
+.small-title {
+  font-size: 2.4rem;
+  color: #072142;
+  letter-spacing: 0.2em;
+  /* font-family: "futura_de"; */
+}
+
+skill-set__ratio {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #072142;
+}
+
+.skill-set__bar {
+  width: 100%;
+  height: 1.4rem;
+  background: #fff;
+  position: relative;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(7, 33, 66, 0.15);
+  box-shadow: 0 5px 15px 0 rgba(7, 33, 66, 0.15);
+}
+
+.skill-set__bar:after {
+  -webkit-animation: ratio90 1.5s forwards;
+  animation: ratio90 1.5s forwards;
+}
+
+.skill-set__bar:after {
+  background-image: -webkit-linear-gradient(
+    left,
+    #072142,
+    #8c2b7a 42%,
+    #ff4d5a
+  );
+  background-image: -o-linear-gradient(left, #072142, #8c2b7a 42%, #ff4d5a);
+  background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+}
+
+.skill-set__bar:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.java:after {
+  width: 89%;
+}
+
+.javascript:after {
+  width: 85%;
+}
+
+.python:after {
+  width: 79%;
+}
+
+.react:after {
+  width: 82%;
+}
+
+.vue:after {
+  width: 87%;
+}
+
+.node:after {
+  width: 75%;
+}
+
+.mongo:after {
+  width: 78%;
+}
+
+.mysql:after {
+  width: 88%;
+}
+
+.sqlite:after {
+  width: 69%;
+}
+
+.git:after {
+  width: 88%;
+}
+
+/* .react:after {
+    width: 82%;
+}
+.react:after {
+    width: 82%;
+} */
+
+.container-skills {
+  background-color: #c0c5ca;
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+  width: 60%;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tape {
+  background-color: hsla(0, 0%, 100%, 0.8);
+  box-shadow: inset 0 0 1em 0.5em hsla(0, 0%, 100%, 0.1);
+  height: 3em;
+  top: -22px;
+  left: 0;
+  right: 0;
+  color: #072142;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+  transform: rotate(1deg);
+  max-width: 180px;
+  -webkit-filter: drop-shadow(0 1px 0.7px hsla(0, 0%, 0%, 0.3));
+}
+
+.tape:after,
+.tape:before {
+  background-size: 0.4em 0.4em;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0.2em;
+}
+
+.tape:after {
+  background-image: linear-gradient(
+      45deg,
+      transparent 50%,
+      hsla(0, 0%, 100%, 0.3) 50%
+    ),
+    linear-gradient(-45deg, transparent 50%, hsla(0, 0%, 100%, 0.3) 50%);
+  background-position: 0 100%;
+  left: -0.2em;
+}
+
+.tape:before {
+  background-image: linear-gradient(
+      135deg,
+      transparent 50%,
+      hsla(0, 0%, 100%, 0.3) 50%
+    ),
+    linear-gradient(-135deg, transparent 50%, hsla(0, 0%, 100%, 0.3) 50%);
+  background-position: 100% 100%;
+  right: -0.2em;
+}

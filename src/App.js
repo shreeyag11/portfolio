@@ -3,12 +3,12 @@ import Home from './components/Home';
 import './assets/css/App.css'
 import NavBar from './components/Navbar/NavBar';
 import Footer from './components/Footer';
-import Experience from './components/Experience';
+import Experience from './components/Experience/Experience';
 import Project from './components/Projects/Project';
 import About from './components/About/About';
 import Particles from 'particlesjs';
-import Education from './components/Education';
-import Skills from './components/Skills';
+import Education from './components/Education/Education';
+import Skills from './components/Skills/Skills';
 import Contact from './components/Contact';
 import Sidebars from './components/Sidebars';
 import SideDrawer from './components/Navbar/SideDrawer/SideDrawer';
@@ -78,6 +78,7 @@ class App extends Component {
           <Home />
         </div>
         <About />
+        <div className="spacer" />
         <Skills />
         {/* <Project /> */}
         <Education />
