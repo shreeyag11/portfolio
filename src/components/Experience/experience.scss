@@ -1,0 +1,85 @@
+.exp-nav-tabs.exp-vertical-tabs {
+  float: left;
+  padding: 0;
+  width: 200px;
+  flex-direction: column;
+  margin: 0;
+  border: 0;
+
+  .exp-nav-item {
+    margin: 0;
+  }
+
+  .exp-nav-link {
+    color: #03a8e6;
+    font-size: 24px;
+    padding: 18px 0;
+    border: 0;
+    position: relative;
+
+    &.active {
+      color: #03a8e6;
+
+      &::after {
+        content: "";
+        background: #03a8e6;
+        width: 3px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: -4px;
+        z-index: 1;
+      }
+    }
+  }
+
+  & + .exp-tab-content {
+    float: right;
+    display: block;
+    width: calc(100% - 200px);
+    border-left: 2px solid #f0f0f0;
+    min-height: 300px;
+
+    .exp-tab-pane-header {
+      display: none;
+    }
+  }
+
+  .exp-card-body {
+    color: cyan;
+  }
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+
+    & + .exp-tab-content {
+      float: none;
+      width: 100%;
+      border: 0;
+      .exp-tab-pane-header {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .exp-card {
+    border: none;
+  }
+
+  .exp-card .exp-card-header {
+    display: none;
+  }
+
+  .exp-card .exp-collapse {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .exp-tab-pane {
+    display: block !important;
+    opacity: 1;
+  }
+}

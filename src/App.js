@@ -78,11 +78,10 @@ class App extends Component {
           <Home />
         </div>
         <About />
-        <div className="spacer" />
-        <Skills />
-        {/* <Project /> */}
         <Education />
         <Experience />
+        <Project />
+        <Skills />
         <Contact />
         <Footer />
       </div >
