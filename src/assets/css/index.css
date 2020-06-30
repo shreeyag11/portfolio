@@ -31,8 +31,9 @@ html {
   text-decoration: solid;
   text-shadow: 0 0 2px;
   color: #d6d7e1;
-  letter-spacing: 4px;
+  letter-spacing: 7px;
   text-transform: uppercase;
+  font-weight: 900;
 }
 
 .line {
@@ -143,6 +144,24 @@ html {
   text-decoration: none;
   color: #ccc;
   text-transform: uppercase;
+  font-size: 14px;
+  border-style: none;
+}
+
+.nav ul li .nav-resume {
+  text-decoration: none;
+  font-size: 14px;
+  color: #03e9f4;
+  text-transform: uppercase;
+  border: 1px solid #03e9f4;
+}
+
+.nav ul li .nav-resume:hover {
+  background-color: rgba(3, 233, 244, 0.1);
+}
+
+.contact-email:hover {
+  background-color: rgba(3, 233, 244, 0.1);
 }
 
 @media (max-width: 768px) {

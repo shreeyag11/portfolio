@@ -1,5 +1,6 @@
 import React from 'react';
 import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
+import Button from '@material-ui/core/Button';
 
 const NavBar = props => {
     return (
@@ -15,6 +16,7 @@ const NavBar = props => {
                     <li><a href="#projects" className="nav-link">Projects</a></li>
                     <li><a href="#skills" className="nav-link">Skills</a></li>
                     <li><a href="#contact" className="nav-link">Contact</a></li>
+                    <li><Button variant="outlined" className="nav-resume">Resume</Button></li>
                 </ul>
             </nav>
 

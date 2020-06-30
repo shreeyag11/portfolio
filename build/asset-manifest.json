@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8d53f4c0.chunk.css",
+    "main.js": "/static/js/main.eac8054c.chunk.js",
+    "main.js.map": "/static/js/main.eac8054c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.b645381c.chunk.js": "/static/js/2.b645381c.chunk.js",
+    "static/js/2.b645381c.chunk.js.map": "/static/js/2.b645381c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.851449bccae937b868305efe7cb3e151.js": "/precache-manifest.851449bccae937b868305efe7cb3e151.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8d53f4c0.chunk.css.map": "/static/css/main.8d53f4c0.chunk.css.map",
+    "static/js/2.b645381c.chunk.js.LICENSE.txt": "/static/js/2.b645381c.chunk.js.LICENSE.txt",
+    "static/media/budgety.PNG": "/static/media/budgety.f0cc5de9.PNG",
+    "static/media/forkify.PNG": "/static/media/forkify.4e590234.PNG",
+    "static/media/git-seeklogo.com.svg": "/static/media/git-seeklogo.com.64d5e98f.svg",
+    "static/media/github-finder.PNG": "/static/media/github-finder.cbeafbf2.PNG",
+    "static/media/java-seeklogo.com.svg": "/static/media/java-seeklogo.com.a732a6e5.svg",
+    "static/media/javascript-js-seeklogo.com.svg": "/static/media/javascript-js-seeklogo.com.87711407.svg",
+    "static/media/leetcode.PNG": "/static/media/leetcode.2320f2af.PNG",
+    "static/media/me.jpg": "/static/media/me.ccd36f56.jpg",
+    "static/media/meetup.jpg": "/static/media/meetup.79fa0a3f.jpg",
+    "static/media/mongodb.svg": "/static/media/mongodb.778ad465.svg",
+    "static/media/mysql-seeklogo.com.svg": "/static/media/mysql-seeklogo.com.dd2a5a35.svg",
+    "static/media/nodejs-seeklogo.com.svg": "/static/media/nodejs-seeklogo.com.94cafb0d.svg",
+    "static/media/pigame.PNG": "/static/media/pigame.c7597b0a.PNG",
+    "static/media/python-seeklogo.com.svg": "/static/media/python-seeklogo.com.51c2eab2.svg",
+    "static/media/react-seeklogo.com.svg": "/static/media/react-seeklogo.com.ee61ca49.svg",
+    "static/media/smartcity.jpg": "/static/media/smartcity.fc5fe3c1.jpg",
+    "static/media/sqlite-icon.svg": "/static/media/sqlite-icon.332417a7.svg",
+    "static/media/tcetkiosk.PNG": "/static/media/tcetkiosk.83e785e2.PNG",
+    "static/media/vuejs-seeklogo.com.svg": "/static/media/vuejs-seeklogo.com.22efb7c2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.b645381c.chunk.js",
+    "static/css/main.8d53f4c0.chunk.css",
+    "static/js/main.eac8054c.chunk.js"
+  ]
+}

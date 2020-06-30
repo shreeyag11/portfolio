@@ -10,9 +10,9 @@ import Particles from 'particlesjs';
 import Education from './components/Education/Education';
 import Skills from './components/Skills/Skills';
 import Contact from './components/Contact';
-import Sidebars from './components/Sidebars';
 import SideDrawer from './components/Navbar/SideDrawer/SideDrawer';
 import Backdrop from './components/Navbar/Backdrop/Backdrop';
+import Particle from './components/ParticleJs/Particle'
 
 
 class App extends Component {
@@ -71,6 +71,26 @@ class App extends Component {
 
     return (
       <div className="App" style={{ height: "100%" }}>
+        <Particle
+          params={{
+            particles: {
+              number: {
+                value: 50,
+              },
+              size: {
+                value: 3,
+              },
+            },
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: "repulse",
+                },
+              },
+            },
+          }}
+        />
         <div className="main" >
           <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />

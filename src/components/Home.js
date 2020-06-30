@@ -24,7 +24,7 @@ const Home = () => {
             <div className="contents">
                 <div className="in-middle_home">
                     <div className="line1">
-                        <b>SHREEYA GUPTA</b>
+                        <b>Shreeya Gupta</b>
                     </div>
                     <hr className="hrTag" />
                     <div className="line2">
@@ -36,7 +36,7 @@ const Home = () => {
                     building and designing<br /> exceptional websites &amp; applications.<br />
                     </div>
                     <div className={classes.root}>
-                        <Button variant="outlined">Get in Touch</Button>
+                        <Button variant="outlined" className="nav-resume">Get in Touch</Button>
                     </div>
                     <SocialSites />
                 </div>

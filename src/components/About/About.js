@@ -37,9 +37,15 @@ function About() {
                                     Apart from these, I like to learn new technologies, design and develop websites as well as mobile applications.
 
                     </div>
-                    <div className="image-align">
-                        <img src={meImg} className="in-middle" />
+                    <div className="content">
+                        <div className="front" style={{
+                            // backgroundImage: `url(${meetup})`
+                        }}></div>
                     </div>
+
+                    {/* <div className="image-align">
+                        <img src={meImg} className="in-middle" />
+                    </div> */}
                 </div>
 
 
